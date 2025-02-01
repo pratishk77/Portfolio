@@ -331,6 +331,30 @@
         </section>
     </main>
 </body>
+
+      <!-- BotPress Chat Widget -->
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script>
+        window.botpressWebChat.init({
+            configUrl: "https://files.bpcontent.cloud/2025/02/01/07/20250201075714-JNWTLD6R.json",
+            botId: "your-bot-id",
+            host: "https://cdn.botpress.cloud/webchat/v2.2",
+            messagingUrl: "https://cdn.botpress.cloud",
+            showCloseButton: true,
+            disableAnimations: false,
+            showUserAvatar: true,
+            layoutWidth: "350px",
+            layoutHeight: "500px",
+            enableTranscriptDownload: false,
+            containerStyle: {
+                position: "fixed",
+                bottom: "20px",
+                right: "20px",
+                zIndex: "9999"
+            }
+        });
+    </script>
+
 <script src="js/index.js"></script>
 
 </html>
